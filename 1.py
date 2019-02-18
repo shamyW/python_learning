@@ -44,7 +44,14 @@ def addxy(x=1, y=2):
 
     return x + y
 
+def gitaddtest():
+    '''
+    this is for git update test
+    :return: 1
+    '''
 
+    print('this is for git update test')
+    return 1
 
 print(function(1))
 
@@ -61,3 +68,5 @@ print(addxy.__doc__)
 
 a = Test()
 print(a.output())
+
+print(gitaddtest())
