@@ -51,7 +51,7 @@ def gitaddtest():
     '''
 
     print('this is for git update test')
-    return 1
+    return 2
 
 print(function(1))
 
